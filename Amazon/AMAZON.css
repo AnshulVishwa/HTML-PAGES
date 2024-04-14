@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding:0;
+    border: border-box;
+    font-family:arial;
+    
+    .border{
+        border:2px solid transparent;
+    }
+    .border:hover{
+        border:2px solid white;
+    }
+}
+
+#header{
+    height: 60px;
+    background-color:#0F1111;
+}
+#navbar{
+    height:60px;
+    padding-top: 7px; 
+    display:flex;
+}
+
+#navlogo{
+    height:40px;
+    width:99.3px;
+    padding-left:6px;
+    padding-right:6px;
+    margin:1px;
+    display: flex;
+    align-content: center;
+}
+
+#logo{
+    margin-top:5px;
+    height:30px;
+    width:99.3px;
+    background-image: url(https://m.media-amazon.com/images/G/01/iscore/inspire/amazon_logo_RGB_REV._CB1627603987_.png);
+    background-size:cover;
+}
+
+
+
+/* box 2 */
+
+.adress{
+    height:40px;
+    width:90.64px;
+    padding-left:6px;
+    padding-right:6px;
+    margin:1px;
+}
+
+#icon_map{
+    color:white;
+}
+
+.map{
+    display:flex;
+    color:white;
+}
+
+#sfont{
+    font-size:0.8rem;
+    color:#cccccc;
+    margin-left:16px;
+}
+#cfont{
+    font-size:1rem;
+    margin-left:4px;
+}
+
+/* Search */
+
+.nav-search{
+    height:40px;
+    display: flex;
+    width:620px;
+    border:none;
+}
+
+select {
+    height:40px;
+    width:51.3px;
+    background-color: #f3f3f3;
+    font-size:1rem;
+    color:rgb(133, 133, 133);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display:flex;
+    justify-content:center;
+    border:none;
+    padding:5px;
+}
+#search{
+    font-size:1rem;
+    height:21px;
+    width:738.329px;
+    color:rgb(133, 133, 133);
+    border:none;
+    padding-top:10px;
+    padding-bottom:9px;
+    padding-right:10px;
+    margin:0px;
+}
+#search-icon{
+    height:40px;
+    width:45px;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#icon_search {
+    color:#232F3E;
+    transform:scale(1.5);
+}
+.searchborder{
+    border:3px solid transparent;
+    border-radius:7px;
+}
+.searchborder:hover{
+    border:3px solid #FF8C00;
+}
+.searchborder:active{
+    border:3px solid #FF8C00;
+}
+
+/* Flag */
+
+.language{
+    height:40px;
+    width:80px;
+    padding-left:6px;
+    padding-right:6px;
+    margin:1px;
+    display:flex;
+}
+
+#flag{
+    margin-top:12px;
+    height:20px;
+    width:25px;
+    background-image:url(united-kingdom.png);
+    background-size:cover;
+}
+
+.select{
+    color:white;
+    font-weight:bolder;
+    margin-top:5px;
+    background-color:transparent;
+    border:none;
+    border-color:transparent;
+    padding-right:2px;
+}
+
+/* Sign in */
+
+.signin{
+    height:40px;
+    width:122px;
+    padding-left:6px;
+    padding-right:6px;
+    margin:1px;
+    display: flex;
+    color:white;
+}
+.hello{
+    color:white;
+    font-size:0.8rem;
+    height:14px;
+    margin-top:5px;
+}
+.account{
+    margin-top:5px;
+    width:18px;
+    color:white;
+    font-weight:bolder;
+    text-align:left;
+    background-color:transparent;
+}
+
+/* Returns */
+
+.return{
+    color:white;
+    height:40px;
+    width:100x;
+    padding-left:6px;
+    padding-right:6px;
+    margin:1px;
+    display: flex;
+}
+.order{
+    font-size:0.8rem;
+    height:14px;
+    margin-top:5px;
+}
+.and{
+    margin-top:5px;
+    width:18px;
+    color:white;
+    font-weight:bolder;
+    font-size:0.8rem;
+}
+
+/* Cart */
+
+.cartitem{
+    color:white;
+    height:34px;
+    width:70px;
+    padding:7px;
+    padding-bottom:0px; 
+    display:flex;
+}
+
+#icon_cart{
+    transform: scale(1.8);
+    margin-top:5px;
+    margin-left:8px;
+}
+.CART{
+    font-weight:bold;
+    font-size:1rem;
+    margin-left:15px;
+    margin-top:9px;
+}
+
+/* NAVBAR END -- */
+
+.nav2{
+    color:white;
+    height:39px;
+    background-color:#232f3e ;
+    position: relative;
+    bottom:7px;
+    padding-left:15px;
+    display: flex;
+}
+
+.font{
+    font-size:1rem;
+    padding-left:5px;
+}
+
+.item{
+    width:38px;
+    height:25px;
+    border:1px solid transparent;
+    display: flex;
+    padding:8px 9px 0px 9px;
+}
+
+#all{
+    margin-left:5px;
+
+}
+
+#item2{
+    width:105px;
+}
+
+#item3{
+    width:133px;
+}
+
+#item4{
+    width:65px;
+}
+
+#item5{
+    width:80px;
+}
+
+#item6{
+    width:33px;
+}
+
+/* /* FULL NAV BAAR :end * */
+/* BACKGROUND image */
+
+.body{
+    height:750px;
+    background-image:url(https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg);
+    background-size:cover;
+}
+
+.note{
+    color:#0F1111;
+    width:1230px;
+    height:40px;
+    background-color:#f5f6f6 ;
+    position:absolute;
+    top:290px;
+    left:15px;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:14px;
+}
+a{
+    color:rgb(56, 56, 244);
+    text-decoration:underline;
+}
+a:hover{
+    color:#FF8C00;
+}
+
+.outer{
+    position:relative;
+    top:300px;
+}
+
+
+/* BOX 1 START */
+
+.box1{
+    height:450px;
+    background-color:transparent;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxitem{
+    margin:10px;
+    color:black;
+    background-color: WHITE;
+    height:420px;
+    width:290px;
+}
+
+#boxitem1{
+    margin:10px;
+    color:black;
+    background-color: WHITE;
+    height:420px;
+    width:306px;
+}
+
+#Gaming_h2{
+    margin:10px 0px 0px 10px;
+}
+
+.images{
+    height:300px;
+    width:306px;
+    padding-top:25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#div1{
+    height:153px;
+    width:306px;
+}
+
+#headset{
+    height:95.6px;
+    width:153px;
+    color:#0F1111;
+}
+
+#keyboard{
+    height:95.6px;
+    width:153px;
+}
+
+#mouse{
+    height:95.6px;
+    width:153px;
+}
+
+#chair{
+    height:95.6px;
+    width:153px;
+}
+
+.text{
+    height:14px;
+    position: relative;
+    bottom:15px;
+}
+
+#headset_text{
+    margin:0px 110px 0px 20px;
+}
+
+#mouse_text{
+    margin:0px 110px 0px 20px;
+}
+
+.seemore{
+    margin-left:20px;
+}
+.seemore:hover{
+    color:#FF8C00;
+}
+
+/* BOX 1 END */
+/* BOX 2 START */
+
+.box2{
+
+    height:450px;
+    background-color:transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+    
+.Toys_image{   
+    height:300px;
+    width:262px;
+    margin-top:15px;
+    margin-left:22px;
+    margin-right:44px;
+    background-image:url(toys.jpg);
+    background-size:cover;
+}
+
+a{
+    color:#007185;
+}
+
+.shopnow{
+    margin-left:20px;
+    margin-top:9px;
+}
+.shopnow:hover{
+    color:#FF8C00;
+}
+
+/* BOX2 END */
+/* Box3 START */
+
+#Electronics_h2{
+    margin:10px 0px 0px 10px;
+}
+
+.box3{
+    height:450px;
+    background-color:transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+} 
+
+.electronics_image{   
+    height:300px;
+    width:262px;
+    margin-top:15px;
+    margin-left:22px;
+    margin-right:22px;
+    background-image:url(electronics.jpg);
+    background-size:cover;
+}
+
+/* BOX 3END */
+/* BOX 4 START */
+
+.box4{
+    height:450px;
+    width:520px;
+    background-color:transparent;
+}
+#boxitem4{
+    height:150px;
+    margin-bottom:15px;
+    margin-top: 15px;
+    display:flex;
+    justify-content: center;
+    align-content: center; 
+    flex-wrap: wrap;
+}
+
+#Sign-in{
+    margin-left:15px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom:20px;
+}
+
+#button{
+    height:29px;
+    width:259px;
+    background-color: #FFF700;
+    border:none;
+    border-radius: 6px;
+}
+#button:hover{
+    background-color: #c2bb00;
+}
+
+#boxitem5{
+    height:255px;
+    background-image: url(box4.jpg);
+    background-size:cover;
+}
+
+/* ENDING */
+
+.gap-end-up{
+    height:50px;
+    background-color: #f0eeee;
+}
+
+.ending{
+    height:165.33px;
+    background-color: #f0eeee;
+}
+
+.end-border{
+    height:125.33px;
+    background-color: #f0eeee;
+    border:1.5px solid #DDD;
+    border-radius:4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    flex-wrap:wrap;
+}
+
+.para{
+    font-size:13px;
+    width:1200px;
+    padding-bottom: 5px;
+}
+
+.button-end{
+    background-color: #FFA500;
+    width:230px;
+    height:28px;
+    border:none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.para2{
+    padding-bottom:15px;
+    padding-top:5px;
+    font-size:12px;
+    width:1200px;
+}
+
+.button-end:click{
+    background-color: #0F1111;
+}

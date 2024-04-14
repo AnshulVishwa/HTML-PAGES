@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url(login.PNG);
+    background-size: cover;
+    max-width: 80em;
+    height: 42.8em;
+    filter: blur(6px);
+    position: relative;
+    z-index: -1;
+}
+.form {
+    filter: blur(0px);
+    z-index: 1;
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid; */
+    height: 371px;
+    width: 303px;
+    color: white;
+    box-shadow: 0 0 22px;
+    border-radius: 39px;
+    padding: 24px 17px 72px;
+    animation: animate-loginForm 3s ease-in-out 1;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 56px;
+    width: 77px;
+    transform: scale(1.5);
+    letter-spacing: 3px;
+    align-items: center;
+    font-family: math;
+    font-weight: 600;
+    margin-bottom: 47px;
+}
+i.fa-solid.fa-user {
+    transform: scale(1);
+}
+input#username,#password {
+    height: 32px;
+    width: 200px;
+    padding-left: 18px;
+    border-radius: 6px;
+    border: none;
+}
+#username:focus-visible,#password:focus-visible{
+    outline: none;
+}
+button {
+    height: 29px;
+    width: 57px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: #2196F3;
+}
+#login-link{
+    color: white;
+    text-decoration: none;
+}
+#signin-link,#forgot-link{
+    color: blue;
+}
+
+@keyframes animate-loginForm {
+    0%{
+        position: absolute;
+        left: -500px;
+    }
+    75%{
+        left: 42%;
+    }
+    100%{
+        position: absolute;
+        left: 38%;
+    }
+}
