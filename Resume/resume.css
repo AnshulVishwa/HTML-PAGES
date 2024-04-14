@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url(pink-glow.jpg);
+    background-size: cover;
+}
+
+#section1 {
+    display: block;
+    background-image: linear-gradient(to right , #0700de73 , #ddffc9);
+    height: 600px;
+    display: flex;
+    width: 500px;
+    position: absolute;
+    top: 6%;
+    left: 22%;
+    border-radius: 24px;
+    box-shadow: inset 0px 4px 12px 5px white;
+    overflow: hidden;
+    z-index: 2;
+}
+#section1:before {
+    content: '';
+    height: 634px;
+    background-color: white;
+    padding: 0px 9px;
+    transform: translate(-86px,-16px) rotate(12deg);
+    filter: blur(1px);
+    opacity: 0.9;
+    box-shadow: 0px 0px 4px 0px white;
+}
+#section1:hover:before {
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transform: translate(595px,-16px) rotate(12deg);
+}
+#section1:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    z-index: 9;
+    transform: translate(-180px) scale(1.1);
+}
+
+.outline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+header {
+    font-size: 35px;
+    font-family: cursive;
+    /* letter-spacing: 5px; */
+    margin-bottom: 15px;
+}
+.profile-pic {
+    display: flex;
+    margin-bottom: 15px;
+}
+.pic {
+    background-image: url(profile.jpg);
+    height: 175px;
+    width: 175px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.icon {
+    background-color: white;
+    color: black;
+    height: 17px;
+    padding: 3px;
+    border-radius: 50%;
+    position: relative;
+    left: -40px;
+    top: 6px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 459px;
+    text-align: center;
+}
+span#anshul {
+    font-size: 26px;
+    font-family: math;
+}
+span, a, i {
+    color: white;
+    text-shadow: 0px 0px 13px white;
+    margin: 6px 0px;
+}
+#pencil {
+    color: black;
+    position: relative;
+    top: -6px;
+}
+.outline2 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header{
+    font-size: 22px;
+}
+
+
+#section2 {
+    background-image: linear-gradient(to right , #FF4066 , #FFF16A);
+    height: 600px;
+    display: flex;
+    width: 500px;
+    /* justify-content: center; */
+    position: absolute;
+    top: 6%;
+    border-radius: 24px;
+    box-shadow: inset 0px 4px 12px 5px white;
+    right: 22%;
+    overflow: hidden;
+    z-index: 4;
+    opacity: 0.9;
+}
+#section2:hover {
+    transform: translate(180px) scale(1.1);
+    z-index: 9;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#section2:before {
+    content: '';
+    height: 634px;
+    background-color: white;
+    padding: 0px 9px;
+    transform: translate(-86px,-16px) rotate(12deg);
+    filter: blur(1px);
+    opacity: 0.9;
+    box-shadow: 0px 0px 4px 0px white;
+}
+#section2:hover:before {
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transform: translate(557px,-16px) rotate(12deg);
+}
+
+ul.list1 {
+    padding-left: 25px;
+}
+.BOXES{
+    color:white;
+    text-shadow: 1px 1px 5px white;
+
+}
+
+#footer {
+    color: black;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 31px;
+    background-image: linear-gradient(to right,#6157FF,#EE49FD );
+    
+    text-shadow: 0px 0px 7px white;
+    color: aliceblue;
+    z-index: 50;
+}
+
+.outline3 {
+    display: grid;
+    grid-template-columns: repeat( 7, 100px);
+    grid-template-rows: repeat(6 , 100px);
+    padding: 0px 304px;
+    transform: translateZ(-10px);
+    grid-column-gap: 2px;
+}
+#section3 {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 6%;
+    border-radius: 24px;
+    right: 15%;
+    z-index: 1;
+    animation-name: vidhi;
+    animation-duration: 7s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes vidhi {
+    0%{
+        z-index: 6;
+    }
+    100%{
+        z-index:1;
+    }
+
+}
+
+.blast {
+    /* background-image: linear-gradient(to right , #2DFFF5,#FFF878) ; */
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+
+}
+
+#height1{
+    opacity: 0;
+    animation-name: op , anime;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 4s , 1s;
+    animation-timing-function: ease-out;
+}
+#height2{
+    opacity: 0;
+    animation-name: op , anime;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 4s , 1s;
+    animation-timing-function: ease-out;
+}
+#height3{
+    opacity: 0;
+    animation-name: op , anime;
+    animation-duration: 3s ;
+    animation-iteration-count: 1;
+    animation-delay: 4s , 1s;
+    animation-timing-function: ease-out;
+}
+#height4{
+    opacity: 0;
+    animation-name: op , anime;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 4s , 1s;
+    animation-timing-function: ease-out;
+}
+#height5{
+    opacity: 0;
+    animation-name: op , anime;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 4s , 1s;
+    animation-timing-function: ease-out;
+}
+#height6{
+    opacity: 0;
+    animation-name: op , anime;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 4s , 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes anime {
+    0%{
+        opacity: 1;
+        transform:scale(1) rotate(0deg);
+    }
+    50%{
+        opacity: 1;
+        transform:scale(1.2) rotate(180deg);
+    }
+    100%{
+        opacity:1;
+        transform:scale(0) rotate(360deg);
+        
+    }
+}
+@keyframes op {
+    0%{
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(360deg);
+    }
+}
