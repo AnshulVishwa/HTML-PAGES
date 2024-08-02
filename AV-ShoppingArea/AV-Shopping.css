@@ -140,8 +140,8 @@ a {
 .bg-content {
     background-image: url(bg.jpg);
     background-size: contain;
-    height: 34em;
-    width: 78.5em;
+    /* height: 34em;
+    width: 78.5em; */
 }
 #star {
     transform: scale(2.5);
@@ -336,8 +336,8 @@ div#circle {
     align-items: center;
     text-align: center;
     margin-top: 12px;
-    width: 1240px;
-    padding:15px 0px;
+    width: 98%;
+    padding: 15px 0px;
 }
 h2 {
     font-family: sans-serif;
@@ -600,7 +600,7 @@ a.gaming-anchor4 {
     align-items: center;
     text-align: center;
     margin-top: 12px;
-    width: 1240px;
+    width: 98%;
     padding:15px 0px;
 }
 
@@ -868,7 +868,7 @@ a.clothing-anchor4 {
     align-items: center;
     text-align: center;
     margin-top: 12px;
-    width: 1240px;
+    width: 98%;
     padding:15px 0px;
 }
 
@@ -1180,7 +1180,7 @@ button:hover{
     grid-template-rows: repeat(4,1fr);
     grid-template-columns: repeat(4,1fr);
     justify-self: center;
-    width: 929px;
+    /* width: 929px; */
     margin-left: 189px;
     text-align: center;
     height: 14em;

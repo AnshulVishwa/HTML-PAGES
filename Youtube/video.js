@@ -1,6 +1,6 @@
 async function videoMANAGER(url,data){
     try{
-        url = await fetch("pages/videos.json")
+        url = await fetch("videos.json")
         data = await url.json()
         console.log(data)
         for(let i = 0 ; i<data.length ; i++){
@@ -80,7 +80,7 @@ async function videoMANAGER(url,data){
         
     }
     catch(error){
-        console.log("E:SOmething went Wrong")
+        console.log(error)
     }
 }
 videoMANAGER()

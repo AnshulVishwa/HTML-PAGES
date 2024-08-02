@@ -88,6 +88,10 @@ span#carttext {
     background-color: #e8e8e8;
     height: 900px;
     top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .box__1 {

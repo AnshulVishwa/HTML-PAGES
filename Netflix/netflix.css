@@ -16,7 +16,7 @@ body{
     /* background-color: red; */
     align-items: center;
     margin-top: 2rem;
-    width: 64.5rem;
+    width: 80%;
     position: absolute;
     top: 0;
     margin: 2rem 7rem;
@@ -65,11 +65,12 @@ select:focus-visible{
     font-weight: 500;
 }
 img {
-    height: 44.19rem;
+    height: 78.5%;
+    width: 100%;
 }
 div#img {
-    height: 44.2rem;
-    width: 78.55rem;
+    height: 100%;
+    width: 100%;
     /* background-color: aqua; */
     position: absolute;
     top: 0;
@@ -82,7 +83,7 @@ div#img {
     flex-direction: column;
     color: white;
     align-items: center;
-    width: 78.5rem;
+    width: 100%;
 }
 span#text1 {
     font-size: 3.4rem;
