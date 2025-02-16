@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+
+html , body{
+    overflow-x: hidden;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    background: #F4D793;
+    flex-direction: column;
+}
+
+.backgroundDiv {
+    height: 90%;
+    width: 90%;
+}
+
+.navbar {
+    height: 10%;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #212121;
+    margin-top: 1em;
+    animation: incomingNavAnimation 1.5s ease-in-out 1;
+}
+
+span.bigger {
+    font-size: xx-large;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+
+.inputSearch {
+    outline: none;
+    border: none;
+    padding: 1em 3em;
+    border-radius: 5em;
+    background: #212121;
+    color: white;
+    width: 100%;
+}
+.inputSearch::placeholder{
+    color: #dedede;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    position: relative;
+    left: 2em;
+    color: white;
+}
+
+.innerBack {
+    flex-direction: column;
+    height: 90%;
+    width: 75%;
+}
+
+.text1, .text2 {
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+    font-size: xxx-large;
+    width: 100%;
+    color: #2B2B2B;
+    animation: textAnimation 1.5s ease-in-out 1;
+}
+
+.text1{
+    text-align: left;
+    height: 0;
+}
+
+.text2 {
+    text-align: right;
+    position: relative;
+    top: -16%;
+    left: -15%;
+}
+
+img.backgroundImage {
+    animation: incomingAnimation 1.5s ease-in-out 1;
+    height: 50%;
+    position: relative;
+    z-index: 5;
+}
+
+@keyframes incomingAnimation {
+    0% {
+        translate: -3em 3em;
+        opacity: 0;
+    }
+    50%{ opacity: 0; }
+    100%{
+        translate: 0em 0em;
+    }
+}
+
+@keyframes incomingNavAnimation {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes textAnimation {
+    0%{
+        transform: skew(15deg , 15deg);
+        opacity: 0;
+    }
+    50%{ opacity: 0; }
+    100%{
+        transform: skew(0);
+    }
+}
+
+/* Second Section */
+.ChooseStyleDivBackground {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Files/background.png");
+    background-repeat: repeat;
+    background-size: 10%;
+    backdrop-filter: opacity(0);
+}
+.backgroundImageLowerOpacity {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.contentDiv.flex {
+    background: #3F221B;
+    height: 30%;
+    width: 25%;
+    border-radius: 270em;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    animation: incomingAnimation 1.5s ease-in-out 1;
+    cursor: pointer;
+}

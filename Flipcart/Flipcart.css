@@ -189,7 +189,6 @@ span.spanb1b1 {
 
 .content-mobile {
     height: 416px;
-    background-color: #e8E8E8;
     position: relative;
     top: 59px;
     left: 15px;
@@ -216,6 +215,7 @@ div#same-same {
     display: flex;
     margin-left: 16px;
     padding-left: 18px;
+    padding-bottom: 1em;
 }
 
 
@@ -275,6 +275,7 @@ div#same-same {
 .samasya{
     display: flex;
     background-color: #e8e8e8;
+    margin-bottom: 2em;
 }
 
 .boult-img {
@@ -284,4 +285,38 @@ div#same-same {
     width: 178px;
     margin: auto;
     margin-top: 34px;
+}
+
+/* Footer */
+footer {
+    height: 25em;
+    background-color: #212121;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: system-ui;
+    font-size: large;
+}
+th {
+    font-size: large;
+    font-weight: bolder;
+}
+table {
+    height: 50%;
+    width: 60%;
+    text-align: left;
+}
+td{
+    font-size: small;
+}
+td:hover {
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.contact {
+    position: relative;
+    top: 5%;
 }
