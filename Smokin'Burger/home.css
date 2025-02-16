@@ -156,3 +156,7 @@ img.backgroundImage {
     animation: incomingAnimation 1.5s ease-in-out 1;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
