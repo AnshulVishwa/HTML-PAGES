@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+</head>
+<body>
+    <div id="root">
+        <img class='background' src="./images/background.jpg" alt="" />
+      <form>
+        <img src="./images/background.jpg" class="image" />
+        <div class="formContent">
+
+          <h3>Signup</h3>
+          <div class="username">
+            <span>
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <input 
+              class='userinput'
+              type="text"
+              placeholder='Username'
+            >
+          </div>
+          <div class="password">
+            <span>
+              <i
+                class="fa-solid fa-lock-open" 
+                onClick="changeLockType" 
+              ></i>
+            </span>
+            <input 
+              class='passinput'
+              type="text"
+              placeholder='Password'  
+            >
+          </div>
+          <div class="rememberMe">
+            <div class="input">
+              <input type="checkbox" />
+              <span>Remember me</span>
+            </div>
+            <div class="login">
+              <span>Login</span>
+            </div>
+          </div>
+          <div class="btn">
+            <button>Signup</button>
+          </div>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
